@@ -33,7 +33,7 @@ class FruitAdapter(private val list: MutableList<String>) :
            title.text = fruit
 
             button.setOnClickListener {
-                title.text = "ya esta fruta fue presionada"
+                title.text = "si bien hecho"
             }
         }
     }
