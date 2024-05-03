@@ -1,6 +1,7 @@
 package com.pakgva.myapplication
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pakgva.myapplication.databinding.ActivityMainBinding
@@ -20,5 +21,7 @@ class MainActivity : AppCompatActivity() {
         val fruitAdapter = FruitAdapter(listOfNumbers)
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = fruitAdapter
+
+        Toast.makeText(this, "qdwqdqw", Toast.LENGTH_SHORT).show()
     }
 }
